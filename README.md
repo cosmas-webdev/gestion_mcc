@@ -84,36 +84,6 @@ MCC Gestion est une application web complète, robuste et intuitive conçue pour
 | **Sécurité** | CSRF, bcrypt, Sessions, Validation |
 | **Design** | CSS personnalisé, 0 dépendance, responsive |
 
----
-
-## 📁 Structure du Projet
-gestion_mcc/
-├── config/
-│ ├── database.php
-│ └── database.example.php
-├── css/
-│ └── style.css
-├── includes/
-│ └── header.php
-├── logs/
-├── index.php # Connexion
-├── dashboard.php # Tableau de bord
-├── apprenants.php # CRUD Apprenants
-├── formations.php # CRUD Formations
-├── inscriptions.php # CRUD Inscriptions
-├── formateurs.php # CRUD Formateurs
-├── sessions.php # CRUD Sessions + Calendrier
-├── paiements.php # CRUD Paiements
-├── certificats.php # CRUD Certificats
-├── utilisateurs.php # CRUD Utilisateurs (Admin)
-├── logout.php # Déconnexion
-├── setup.php # Installation automatique
-├── .gitignore
-├── LICENSE
-└── README.md
-
----
-
 ## 📦 Installation Rapide (5 minutes)
 
 ### Prérequis
