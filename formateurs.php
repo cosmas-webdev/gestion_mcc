@@ -343,7 +343,7 @@ if (isset($_GET['details'])) {
             
             <div class="form-group">
                 <label>Nom complet <span class="required">*</span></label>
-                <input type="text" name="nom" placeholder="Ex: Jean Dupont" required
+                <input type="text" name="nom" placeholder="Ex: Henriette Cosmaas" required
                        value="<?php echo $formateur_edit ? htmlspecialchars($formateur_edit['nom']) : ''; ?>">
             </div>
             
